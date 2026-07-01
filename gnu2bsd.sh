@@ -74,7 +74,7 @@ fi
 hdr "Linuxifying..."
 
 BREW_FORMULAE=(
-	coreutils findutils gnu-sed gnu-tar grep readline gettext
+	coreutils findutils gnu-sed gnu-tar grep readline gettext gnupg tree
 	diffutils gzip ed less make bash gpatch xz iproute2mac
 	git rsync vim emacs nano screen watch wget wdiff
 	m4 bison flex openssh libressl unzip zlib sqlite gawk
@@ -401,6 +401,8 @@ if [ -n "$BREW_HOME" ] && [ -d "$BREW_HOME" ]; then
     m4 \
     file-formula \
     unzip
+	gnupg \
+	tree
 
     __g2b_add_build_formula \
     flex \
@@ -2114,6 +2116,8 @@ if status is-interactive
             m4 \
             file-formula \
             unzip
+			gnupg \
+			tree
 
         __g2b_add_build_formula \
             flex \

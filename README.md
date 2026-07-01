@@ -4,6 +4,8 @@
 
 `gnu2bsd` makes macOS friendlier for Linux users by preferring GNU tools over BSD defaults and mapping common Linux muscle-memory commands to macOS/Homebrew equivalents.
 
+> Inspired by [pkill37/linuxify](https://github.com/pkill37/linuxify).
+
 ## GNU > BSD
 
 `gnu2bsd` installs GNU tools with Homebrew and prioritizes their `gnubin` paths so the GNU versions are used first.

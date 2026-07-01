@@ -25,6 +25,8 @@ time     -> GNU time
 which    -> GNU which
 getopt   -> GNU getopt
 indent   -> GNU indent
+gpg      -> gnupg
+tree     -> tree
 ```
 
 The goal is simple:
